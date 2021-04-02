@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+button {
+    padding: .8rem 1.5rem;
+    margin: 1.35rem 0;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+h2 {
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.cardSet {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardSet h2 {
+    margin-top: .5rem;
+}
+
+.cardContainer h3 {
+    color: #ffae00;
+    margin-top: .5rem;
+    margin-bottom: .75rem;
+}
+
+.cardContainer img {
+    width: 325px;
+    height: 285px;
+    background-color: #d8d7d7;
+    margin-bottom: .5rem;
+}
+
+.card {
+    background: #1c1c1c;
+    border-radius: 0.7rem;
+
+    width: 325px;
+    
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+
+    margin-left: 1rem;
+}
+
+.optionDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: fit-content;
+
+    margin-left: .25rem;
+    margin-bottom: .25rem;
+    color: #fff;
+}
+
+.optionValue {
+    margin: 0;
+}
+
+.optionValue p {
+    margin: 0 .5rem 0 0;
+}
