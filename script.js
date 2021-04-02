@@ -2,12 +2,12 @@ var batmanDarkKnight = {
     name: 'Batman (Cavalheiro das Trevas)',
     image: './assets/BatmanDarkKnight.png',
     attributes: {
-        strength: 50,
-        defense: 77,
-        resistance: 43,
-        skill: 96,
-        intelligence: 99,
-        speed: 88
+        'força': 50,
+        'defesa': 77,
+        'resistência': 43,
+        'habilidade': 96,
+        'inteligência': 99,
+        'velocidade': 88
     }
 }
 
@@ -15,12 +15,12 @@ var batmanBeyond = {
     name: 'Batman (do Futuro)',
     image: './assets/BatmanBeyond.png',
     attributes: {
-        strength: 57,
-        defense: 74,
-        resistance: 55,
-        skill: 91,
-        intelligence: 79,
-        speed: 90
+        'força': 57,
+        'defesa': 74,
+        'resistência': 55,
+        'habilidade': 91,
+        'inteligência': 79,
+        'velocidade': 90
     }
 }
 
@@ -28,12 +28,12 @@ var deathstroke = {
     name: 'Exterminador',
     image: './assets/Deathstroke.png',
     attributes: {
-        strength: 52,
-        defense: 75,
-        resistance: 40,
-        skill: 96,
-        intelligence: 99,
-        speed: 90
+        'força': 52,
+        'defesa': 75,
+        'resistência': 40,
+        'habilidade': 96,
+        'inteligência': 99,
+        'velocidade': 90
     }
 }
 
@@ -41,12 +41,12 @@ var jokerClown = {
     name: 'Coringa (Palhaço)',
     image: './assets/JokerClown.png',
     attributes: {
-        strength: 36,
-        defense: 43,
-        resistance: 38,
-        skill: 62,
-        intelligence: 96,
-        speed: 80
+        'força': 36,
+        'defesa': 43,
+        'resistência': 38,
+        'habilidade': 62,
+        'inteligência': 96,
+        'velocidade': 80
     }
 }
 
@@ -54,12 +54,12 @@ var jokerCriminal = {
     name: 'Coringa (Criminoso)',
     image: './assets/JokerCriminal.png',
     attributes: {
-        strength: 40,
-        defense: 45,
-        resistance: 38,
-        skill: 82,
-        intelligence: 99,
-        speed: 80
+        'força': 40,
+        'defesa': 45,
+        'resistência': 38,
+        'habilidade': 82,
+        'inteligência': 99,
+        'velocidade': 80
     }
 }
 
