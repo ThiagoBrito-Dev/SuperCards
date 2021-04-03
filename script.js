@@ -86,30 +86,31 @@ function raffleCard() {
 }
 
 function displayCards(neutralCard, title, status) {
-    var options = document.getElementById('cardContainer')
+    var cardContainer = document.getElementById('cardContainer')
 
     if (status == 'clear') {
-        options.innerHTML = ''
+        cardContainer.innerHTML = ''
     } else {
-        var cardTitle = title
+        var cardTitle = `<h2>${title}</h2>`
+        var cardCharacterName = `<h3>${neutralCard.name}</h3>`
+        var cardImage = `<img src="${neutralCard.image}">`
+        var input = ''
+        var value = ''
 
-        var cardCharacterName = '<h3>' + neutralCard.name + '</h3>'
-        var cardImage = '<img src=' + neutralCard.image + '>'
-
-        var character = cardCharacterName + cardImage
-
-        var optionInput = ''
         for (var attribute in neutralCard.attributes) {
-            optionInput += '<div class="optionDiv"><div class="optionText">'
-                + '<input type="radio" name="attribute" value="' + attribute + '">' + attribute
-                + '</div><div class="optionValue"><p>' + neutralCard.attributes[attribute]
-                + '</p></div></div>'
+            input += `<input type="radio" name="attribute" value="${attribute}"><p>${attribute}</p><br>`
+            value += `<p>${neutralCard.attributes[attribute]}</p>`
         }
 
-        var card = '<div class="cardSet"><h2>' + cardTitle + '</h2><div class="card" id="card"><div class="character">'
-            + character + '</div>' + '<div class="optionContainer">' + optionInput + '</div ></div></div>'
+        var optionValue = `<div class="optionValue">${value}</div>`
+        var optionText = `<div class="optionText">${input}</div>`
+        var optionDiv = `<div class="optionDiv">${optionText}${optionValue}</div>`
+        var optionContainer = `<div class="optionContainer">${optionDiv}</div>`
+        var character = `<div class="character">${cardCharacterName}${cardImage}</div>`
+        var card = `<div class="card" id="card">${character}${optionContainer}</div>`
+        var cardSet = `<div class="cardSet">${cardTitle}${card}</div>`
 
-        options.innerHTML += card
+        cardContainer.innerHTML += cardSet
     }
 }
 
