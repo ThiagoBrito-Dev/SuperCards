@@ -39,35 +39,36 @@ h2 {
 .cardSet {
     display: flex;
     flex-direction: column;
+    margin-right: 1rem;
 }
 
 .cardSet h2 {
     margin-top: .5rem;
 }
 
-.cardContainer h3 {
-    color: #ffae00;
-    margin-top: .5rem;
-    margin-bottom: .75rem;
-}
-
-.cardContainer img {
-    width: 325px;
-    height: 285px;
-    background-color: #d8d7d7;
-    margin-bottom: .5rem;
-}
-
 .card {
     background: #1c1c1c;
-    border-radius: 0.7rem;
+    border-radius: 0.5rem;
+    border: 2.5px solid #141414;
 
     width: 325px;
     
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
+}
 
-    margin-left: 1rem;
+.character h3 {
+    color: #ffae00;
+    margin-top: .25rem;
+    margin-bottom: .7rem;
+}
+
+.character img {
+    width: 275px;
+    height: 225px;
+    border: 6px solid #141414;
+    background-color: #d8d7d7;
+    margin-bottom: .5rem;
 }
 
 .optionDiv {
@@ -80,6 +81,15 @@ h2 {
     margin-left: .25rem;
     margin-bottom: .25rem;
     color: #fff;
+}
+
+.optionText input {
+    float: left;
+}
+
+.optionText p {
+    margin: 0 0 0 2px;
+    float: left;
 }
 
 .optionValue {
