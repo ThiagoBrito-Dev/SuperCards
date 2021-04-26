@@ -1,21 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
-    min-height: 854px;
     background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-07-super-trunfo-bg.png');
-    background-color: #000000;
+    background-color: #000;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 20vh;
 }
 
 .container {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem 0;
 }
 
 .page-title {
-    color: #ffffff;
+    color: #FFF;
     margin: 5px 0;
 }
 
@@ -43,7 +47,8 @@ h2 {
 }
 
 .cardSet h2 {
-    margin-top: .5rem;
+    margin-top: 1.25rem;
+    margin-bottom: .75rem;
 }
 
 .card {
